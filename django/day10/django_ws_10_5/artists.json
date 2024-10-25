@@ -1,0 +1,152 @@
+[
+{
+    "model": "artists.artist",
+    "pk": 1,
+    "fields": {
+        "name": "Involve song laugh she sure message relate. Chance Democrat describe under.",
+        "agency": "Point development during herself civil environment. Must in member.\nLeft particular technology goal course professor. Attack reason born.",
+        "debut_date": "1973-01-30",
+        "is_group": false
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 2,
+    "fields": {
+        "name": "Chair course charge its surface plant above top. Process deep travel concern task learn point.",
+        "agency": "Employee news activity character seat home. Close where evidence hand one reach American.\nCompare simply fly attorney relate capital good. Ready relationship career international seat loss coach.",
+        "debut_date": "2012-02-22",
+        "is_group": false
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 3,
+    "fields": {
+        "name": "Doctor think police. Tough both despite model. Any anyone evening choice car great.",
+        "agency": "Walk say first sing security. Without practice for impact.\nEmployee wind have material west million about seven. Include seat upon source. Give know follow second claim political generation hold.",
+        "debut_date": "2024-01-23",
+        "is_group": true
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 4,
+    "fields": {
+        "name": "Lawyer customer answer purpose. Make yes off cut. Agree very he themselves wait director.",
+        "agency": "Play light agree spend commercial attention. Hot whose inside capital.\nSee short song even. Institution bank network then five yourself there. Key matter recent officer population black.",
+        "debut_date": "2000-04-17",
+        "is_group": false
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 5,
+    "fields": {
+        "name": "Who body half remember lay. Charge full represent magazine third.",
+        "agency": "Data fly yourself affect do imagine. Kid nature some lawyer should. Because often compare case difficult there throw.",
+        "debut_date": "1992-11-09",
+        "is_group": true
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 6,
+    "fields": {
+        "name": "True accept watch whether if police ok serve. Manager might whole push take finally music response.",
+        "agency": "My board center young collection research best. Part or center attack surface. Be present thus paper place.\nDoctor bag south century quickly. Sea take everybody chair money. Send member so.",
+        "debut_date": "2009-09-05",
+        "is_group": false
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 7,
+    "fields": {
+        "name": "Father good campaign adult. Owner event wide behavior push.",
+        "agency": "Senior way artist show already practice. Doctor benefit consumer against ball player where. Exactly lose loss I should. Such page which live.\nOutside ready apply hand realize keep effort.",
+        "debut_date": "1996-11-06",
+        "is_group": true
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 8,
+    "fields": {
+        "name": "Perform energy floor five. Sea million want.",
+        "agency": "Here last yard. Time owner now including beyond.\nPerformance right actually long there cell. Again politics amount material finish must us. Thank new join daughter gas read. Nation grow whatever.",
+        "debut_date": "2013-05-27",
+        "is_group": true
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 9,
+    "fields": {
+        "name": "Yes case professor community.\nFull behind claim fine up spring. Impact father technology employee.",
+        "agency": "Scene wear care second game. Hospital space star actually. Energy sure green opportunity.",
+        "debut_date": "1984-10-23",
+        "is_group": true
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 10,
+    "fields": {
+        "name": "Art college either southern use challenge goal. Product scientist interesting family.",
+        "agency": "Shake actually fly mind better. Least off involve another cold.\nWe national PM wrong must. Thing southern simple young push effort.\nEconomic woman too Republican. However light bag beyond hot.",
+        "debut_date": "1970-03-27",
+        "is_group": true
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 11,
+    "fields": {
+        "name": "Process outside human last.\nSimilar new place report new system child.",
+        "agency": "Same need low wonder. Buy hot mention cut ball though. Religious beat TV season meet establish. White room want letter traditional front between painting.",
+        "debut_date": "1990-02-06",
+        "is_group": false
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 12,
+    "fields": {
+        "name": "Trip material cut condition. Scene arm design allow past. Lot great clearly heart indeed.",
+        "agency": "Place program company together common now business professional. Eight staff by case.\nInclude other put same test. Push scientist arm choice term all easy. Remain year audience.",
+        "debut_date": "2011-09-13",
+        "is_group": true
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 13,
+    "fields": {
+        "name": "Long floor development rise staff have soon. Answer outside treatment watch. Trip one trial data.",
+        "agency": "Area statement beyond discover. Always memory toward successful tree call power. History act set.\nAgree life organization light. House whether year final school voice him.",
+        "debut_date": "2013-04-07",
+        "is_group": true
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 14,
+    "fields": {
+        "name": "Discover price cost offer finally plan hour. Marriage pay so make technology minute win future.",
+        "agency": "Glass but citizen them. Thus cell put establish popular Mr. Simple board attorney large church.\nHigh keep far miss. Southern civil audience green road himself either. Hotel truth go shoulder guess.",
+        "debut_date": "1983-10-11",
+        "is_group": false
+    }
+},
+{
+    "model": "artists.artist",
+    "pk": 15,
+    "fields": {
+        "name": "Law find meet kid. Court inside billion under course.",
+        "agency": "Physical woman part.\nReveal spring herself drug we. Enjoy worry by eight for first. Do arm computer west know old.",
+        "debut_date": "2011-05-02",
+        "is_group": true
+    }
+}
+]

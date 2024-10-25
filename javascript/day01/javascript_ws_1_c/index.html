@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .article {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container"></div>
+    <script>
+      // 아래에 코드 작성
+      // 1. 레거시, 문자열로 안의 자식을 할당하기
+      //   -> 보안 이슈 (XSS 공격 취약...)
+      const divTag = document.querySelector("div#container");
+      //     divTag.innerHTML = `<div class="article">
+      //   <h1>Article Title</h1>
+      //   <p style="border-top: 1px solid black; padding-top: 10px;">This is article comment</p>
+      // </div>`;
+
+      // 2. 자식 요소를 메서드로 하나하나씩 만들어서 할당 (권장)
+      const articleTag = document.createElement("div");
+      articleTag.classList.add("article");
+
+      const h1Tag = document.createElement("h1");
+      h1Tag.textContent = "Article Title";
+
+      const pTag = document.createElement("p");
+      pTag.textContent = "This is article comment";
+      pTag.style.borderTop = "1px solid black";
+      pTag.style.paddingTop = "10px";
+
+      articleTag.appendChild(h1Tag);
+      articleTag.appendChild(pTag);
+
+      divTag.appendChild(articleTag);
+    </script>
+  </body>
+</html>

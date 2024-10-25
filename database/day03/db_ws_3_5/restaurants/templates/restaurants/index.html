@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>레스토랑 전체 목록</h1>
+<a href="{% url 'restaurants:create' %}">[신규 레스토랑 등록]</a>
+
+<ul>
+  {% for restaurant in restaurants %}
+    <li>
+      <a href="{% url 'restaurants:detail' restaurant.pk %}">
+        {% if restaurant.category and restaurant.category.img %}
+          <img src="{{ restaurant.category.img.url }}" alt="{{ restaurant.category.name }} 카테고리 이미지">
+        {% else %}
+          <p>이미지가 없습니다</p>
+        {% endif %}
+        <p>보유중인 메뉴 수 : {{ restaurant.menu_set.all|length }}</p>
+      </a>
+    </li>
+    <hr>
+  {% endfor %}
+</ul>
+{% endblock content %}

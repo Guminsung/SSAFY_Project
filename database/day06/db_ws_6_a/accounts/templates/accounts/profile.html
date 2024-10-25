@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h1>{{ person.username }} 님의 프로필</h1>
+  {% if person.email %}
+    이메일 : {{ person.email }}
+  {% else %}
+    이메일이 없습니다.
+  {% endif %}
+  {% if request.user == person %}
+    <form action="{% url 'accounts:delete' %}" method="POST">
+      {% csrf_token %}
+      <input type="submit" value="[SIGNOUT]" />
+    </form>
+    <a href="{% url 'accounts:update' %}">[USER_UPDATE]</a>
+    <hr />
+  {% endif %}
+  <ul>
+    {% for diary in like_diaries %}
+      {% if diary.picture %}
+        <li>
+          <img src="{{ diary.picture }}" alt="{{ diary.picture }}" />
+          {{ diary.content }}
+        </li>
+      {% else %}
+        <li>{{ diary.content }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endblock %}
